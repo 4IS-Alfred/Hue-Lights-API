@@ -5,8 +5,9 @@
   "main": "dist/index.js",
   "icon": "Alfred-Logo.svg",
   "scripts": {
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "package": "tsc",
+    "build": "tsc",
     "pretty": "prettier --write ."
   },
   "keywords": [
