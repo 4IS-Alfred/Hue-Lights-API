@@ -1,0 +1,37 @@
+{
+  "name": "@4is-alfred/hue-lights-api",
+  "version": "0.0.1",
+  "description": "This module/library is a fork/clone of the node-hue-api module, created by Peter Murray, with the main difference being opinion in design/structure.",
+  "main": "dist/index.js",
+  "icon": "Alfred-Logo.svg",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "tsc",
+    "pretty": "prettier --write ."
+  },
+  "keywords": [
+    "philips",
+    "philips-hue-lights",
+    "philips-hue-light",
+    "philips-hue-bridge",
+    "philips-hue-api",
+    "hue",
+    "api",
+    "iot",
+    "home-automation",
+    "home-automation-iot",
+    "home-automation-iot-hue"
+  ],
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://alcha.org"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
